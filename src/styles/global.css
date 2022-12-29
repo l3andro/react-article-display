@@ -62,7 +62,7 @@
 
 .delete, .submit {
     grid-area: f;
-   background-color:  red;
+   background-color:  #4d94ff;
    color: #ffffff;
    height: 32px;
    border: none;

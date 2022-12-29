@@ -54,7 +54,7 @@ const storiesReducer = (state, action) => {
 const App = () => {
   const [searchTerm, setSearchTerm] = useSemiPersistentState(
     'search',
-    'Kubernetes'
+    'Civo Kubernetes'
   )
 
   const [url, setUrl] = React.useState(
@@ -104,7 +104,7 @@ const App = () => {
 
   return (
     <div>
-      <h1 className="title">Let's learn about DevSecOps</h1>
+      <h1 className="title">Let's learn about Civo</h1>
 
       <SearchForm
         searchTerm={searchTerm}
