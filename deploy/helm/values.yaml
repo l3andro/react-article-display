@@ -5,7 +5,7 @@
 replicaCount: 2
 
 image:
-  repository: anaisurlichs/react-example
+  repository: l3andro4mc/react-example
   tag: 0.0.1
   pullPolicy: IfNotPresent
 

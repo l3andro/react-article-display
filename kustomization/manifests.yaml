@@ -29,7 +29,7 @@ spec:
         run: react-application
     spec:
       containers:
-      - image: anaisurlichs/react-example-app:7.0.0
+      - image: l3andro4mc/react-example-app:7.0.0
         imagePullPolicy: Always
         name: react-application
         ports:
